@@ -133,7 +133,7 @@ const VariantsImagesModal = ({
             Save and close
           </Button>
         </FocusModal.Header>
-        <FocusModal.Body className="flex flex-col items-center py-16 px-4 overflow-y-scroll">
+        <FocusModal.Body className="flex flex-col items-center w-full py-16 px-4 overflow-y-scroll">
           <form onSubmit={onSubmit} id="variant-images-form">
             <div>
               <h2 className="inter-large-semibold mb-2xsmall">Media</h2>
